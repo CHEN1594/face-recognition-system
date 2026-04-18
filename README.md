@@ -1,17 +1,6 @@
 # face-recognition-system
 EE4228 course project of Group 7
 
-google doc link: https://docs.google.com/document/d/1E9jh1QL8HtJpkzV6ilyWjb2n2yMmjhBB4iOAQUYes0Q/edit?usp=sharing
-
-
-# Assignment 1 (Classical): Online Face Detection and Recognition
-
-This folder contains a classical (non-deep-learning) pipeline for:
-- face data collection
-- image preprocessing
-- model training (`PCA + LDA + KNN`)
-- live camera recognition with temporal smoothing
-
 ## 1. Project Structure
 
 - `data_collection.py`: collect cropped face images into `../gallery/<person_name>/`
