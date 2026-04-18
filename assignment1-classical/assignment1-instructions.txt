@@ -1,0 +1,12 @@
+Design and build up a human face recognition system that can detect and recognize a person with a live camera. This is a team-work at lab S2-B5C-02 and each team should consist of 5~8 students. You are encouraged to help each other within the team and cross the teams except for copying each other. Program can be inMATLAB, Python, or C/C++.
+
+* 1. Collect face images of all team members and a few others as gallery images to detect a person’s face lively and recognize it into one or none in the gallery correctly. Over 10 face images for each person should be collected in gallery. Recommend at least 90X90 pixels for each cropped face image in gallery.
+* 2. You can also download some face database from internet to help you training PCA or LDA or the both.
+* 3. Convert colour to grey image for recognition. Some face image normalization should be performed as pre-processing (illumination, spatial position, rotation and scale normalization). Other image enhance techniques to improve the face quality are optional.
+* 4. The trained face detection model such as “Viola & Jones” from OpenCV can be called, providing face location and size. The detected faces will be resized to the same size as you did during the face recognition training process and be recognized by your designed and trained recognition model.
+* 5. You can optionally find some face and nonface dataset from internet and train your own face detection model such as PCA.
+* 6. You may opt for other face detection and recognition algorithms except for deep learning model. But you must have full understanding of the proposed algorithm and well elaborate it in the report and group presentation/demonstration.
+* 7. The assessment will be conducted by oral presentation, demonstration and interview in week 12 & 13 in the Lab. A live demonstration GUI is required. During demonstration, all team member should pose in front of the camera for detection and recognition.
+* 8. Half of teams of each lab class will do the demo of assignment 1 in week 12 and assignment 2 in week 13 while the other half of teams will do the demo of assignment 2 in week 12 and assignment 1 in week 13.
+* 9. A detailed technical report per team, which describes your project and performance analysis, source code and a list of individual contributions of each member and signed by each member, must be submitted in one PDF or WORD file per team to NTULearn before the week of your lab assessment.
+* 10. Each student submits 3-5 minutes video for each Assignment for individual assessment by the end of week 13.
